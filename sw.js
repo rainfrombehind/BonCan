@@ -1,5 +1,5 @@
 /* BonCan — Service Worker bàsic per PWA instal·lable */
-const CACHE_NAME = 'boncan-cache-v1';
+const CACHE_NAME = 'boncan-cache-v2';
 const PRECACHE_URLS = [
     './',
     './index.html',
