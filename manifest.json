@@ -1,0 +1,61 @@
+{
+  "name": "BonCan",
+  "short_name": "BonCan",
+  "description": "Tot pel teu gos. Molt de la terra. Veterinaris de guàrdia, rastreig SOS, EspaiCan i Cercle.",
+  "lang": "ca",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "scope": "./",
+  "theme_color": "#1E5E3A",
+  "background_color": "#FDFBF7",
+  "categories": ["lifestyle", "social", "utilities"],
+  "icons": [
+    {
+      "src": "assets/brand/AppIcon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/brand/AppIcon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/brand/AppIcon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/brand/AppIcon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/brand/AppIcon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Veterinaris de guàrdia",
+      "short_name": "Vet SOS",
+      "description": "Obre directament els veterinari de guàrdia disponibles ara",
+      "url": "./index.html#vet-sos",
+      "icons": [{ "src": "assets/brand/AppIcon.png", "sizes": "any", "type": "image/png" }]
+    },
+    {
+      "name": "Rastreig SOS",
+      "short_name": "Rastreig",
+      "description": "Gossos perduts i trobats al teu voltant",
+      "url": "./index.html#rastreig",
+      "icons": [{ "src": "assets/brand/AppIcon.png", "sizes": "any", "type": "image/png" }]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Excepci¢n al llamar a "Start" con los argumentos "0": "Error de escucha en el prefijo 'http://localhost:8765/' porque 
+entra en conflicto con un registro existente en el equipo."
+En C:\Users\User\Documents\trae_projects\spectral\fuera-cerebro\_serve.ps1: 5 Car cter: 1
++ $listener.Start()
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : HttpListenerException
+ 
+Serving on http://localhost:8765/ - root=c:\Users\User\Documents\trae_projects\spectral\fuera-cerebro
